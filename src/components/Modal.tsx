@@ -56,13 +56,13 @@ export default function Modal({ open, onClose }: Props) {
                         as="h3"
                         className="text-base font-semibold leading-6 text-gray-900"
                       >
-                        RRC 회원이 아닙니다.
+                        10월 우수 참여자가 아닙니다.
                       </Dialog.Title>
-                      <div className="mt-2">
+                      {/* <div className="mt-2">
                         <p className="text-sm text-gray-500">
                           정확한 회원명을 입력해주세요.
                         </p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

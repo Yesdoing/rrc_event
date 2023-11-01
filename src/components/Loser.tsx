@@ -12,7 +12,7 @@ export default function Loser() {
       <div className="animate-bounce">
         <p className="text-xl font-bold italic text-center text-white flex-1">
           아쉽게도 당첨되지 못하셨습니다. <br />
-          다음 이벤트를 기대해주세요!
+          11월을 기대해주세요!
         </p>
       </div>
       <div className="fixed top-0">

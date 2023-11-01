@@ -39,7 +39,7 @@ export default function Home() {
           <p className="text-2xl font-bold italic text-center text-white">
             Rising Running Crew
             <br />
-            행운복권 Event
+            10월 우수 참여자 EVENT
           </p>
         </div>
         <div className="pt-20 w-full max-w-[327px]">

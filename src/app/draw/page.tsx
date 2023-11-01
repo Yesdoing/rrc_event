@@ -27,7 +27,7 @@ export default function Draw() {
     if (!members.includes(name ?? "")) {
       router.replace("/");
     }
-  }, []);
+  }, [name, router]);
 
   const handleOnComplete = () => {
     if (!!is_winner) {
@@ -83,9 +83,9 @@ export default function Draw() {
                 <p className="text-xl font-bold italic text-center text-white">
                   RRC 행운 카드를 긁어보세요.
                 </p>
-                <p className="text-xl font-bold italic text-center text-white">
-                  여러가지 상품들이 준비되어있습니다.
-                </p>
+                {/* <p className="text-xl font-bold italic text-center text-white">
+                  10월의 우수 참여자 중에서 랜덤 상품에 당첨될 수 있어요!
+                </p> */}
               </div>
             </>
           ) : step === "winner" ? (
